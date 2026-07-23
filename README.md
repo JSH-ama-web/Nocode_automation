@@ -92,7 +92,11 @@
 | 연동 서비스 범위 | 대부분의 주요 서비스 지원 + 커스텀 API/HTTP로 확장 가능 | 공식 앱 커넥터가 매우 많고 업데이트가 빠름(광범위한 서비스 지원) |
 | 가성비 | 무료 플랜·요금 대비 작업량(Ops) 효율이 좋은 편 | Task 단가가 높은 편이라 대량 실행에는 비용 부담 가능 |
 | 적용 범위 | 훨씬 복잡한 업무의 자동화에 적합 | 간단하지만 번거로운 업무에 적합 |
+
+
 ---
+
+
 
 # [P2]자유 주제 자동화 설계 및 구현
 
@@ -101,7 +105,7 @@
 ---
 
 <aside>
-<img src="https://app.notion.com/icons/subtask_gray.svg" alt="https://app.notion.com/icons/subtask_gray.svg" width="40px" />
+![workflow_diagram](P2/workflow_diagram.png)
 
 ### 반복 업무 및 워크플로우
 
