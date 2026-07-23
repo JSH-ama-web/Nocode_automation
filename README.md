@@ -105,15 +105,14 @@
 ---
 
 <aside>
-![workflow_diagram](P2/workflow_diagram.png)
-
-### 반복 업무 및 워크플로우
+ 
+### <img src="https://app.notion.com/icons/subtask_gray.svg" alt="https://app.notion.com/icons/subtask_gray.svg" width="40px" /> 반복 업무 및 워크플로우
 
 → 건설 업계에서는 건물을 올리기 전 부지의 전반적인 토질 조사를 실시한다. 그중 흔히 사용하는 방법이 표준관입시험이다. 표준관입시험으로 N값을 얻을 수 있는데, 이때 N은 중량 63.5kg의 해머를 76cm 높이에서 낙하시켜, 샘플러를 지반에 30cm 관입시키는 데 필요한 타격 횟수를 말한다. N값으로 해당 지반의 특성을 파악할 수 있다. 
 
  이에 따라 주변 지형의 N값과는 다르게 문제가 있다고 판단되는 위치에서는 재시험을 하거나 기초의 크기를 키우는 식의 대체방안들을 사용한다. 토질 연구실 학부연구생으로서 엑셀에 추가되는 실험 결과를 자동으로 감지하여 N값의 이상치를 판별하고 이상이 있다고 판별될 시 실험팀에게 메일을 전송하는 일종의 실무 시뮬레이션을 진행하였다.
 
-![workflow.png](%5BP2%5D%EC%9E%90%EC%9C%A0%20%EC%A3%BC%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%20%EC%84%A4%EA%B3%84%20%EB%B0%8F%20%EA%B5%AC%ED%98%84/workflow.png)
+![workflow.png](P2/workflow_diagram.png)
 
 **[1단계] Google Sheets (데이터 트리거)**
 • **역할**: 신규 지반 조사 데이터 입력 및 워크플로우 개시
@@ -240,18 +239,18 @@ output = {
 
 - 설계한 워크플로우 화면
 
-![스크린샷 2026-07-23 16.32.23.png](%5BP2%5D%EC%9E%90%EC%9C%A0%20%EC%A3%BC%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%20%EC%84%A4%EA%B3%84%20%EB%B0%8F%20%EA%B5%AC%ED%98%84/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-07-23_16.32.23.png)
+![스크린샷 2026-07-23 16.32.23.png](P2/workflow.png)
 
 - 6회에 걸쳐 테스트 및 세부 설정 업데이트
 
-![스크린샷 2026-07-23 16.33.19.png](%5BP2%5D%EC%9E%90%EC%9C%A0%20%EC%A3%BC%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%20%EC%84%A4%EA%B3%84%20%EB%B0%8F%20%EA%B5%AC%ED%98%84/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2026-07-23_16.33.19.png)
+![스크린샷 2026-07-23 16.33.19.png](P2/google%20sheets.png)
 
 - 워크시트에 파일 추가 시 필터 조건에 맞게 메일이 발송되거나 필터 조건 미달성시 메일 미발송
 
-![run_histroy.png](%5BP2%5D%EC%9E%90%EC%9C%A0%20%EC%A3%BC%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%20%EC%84%A4%EA%B3%84%20%EB%B0%8F%20%EA%B5%AC%ED%98%84/run_histroy.png)
+![run_histroy.png](P2/run_histroy.png)
 
 - 메일이 발송된 모습
 
-![email_list.png](%5BP2%5D%EC%9E%90%EC%9C%A0%20%EC%A3%BC%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%20%EC%84%A4%EA%B3%84%20%EB%B0%8F%20%EA%B5%AC%ED%98%84/email_list.png)
+![email_list.png](P2/email_list.png)
 
-![email.png](%5BP2%5D%EC%9E%90%EC%9C%A0%20%EC%A3%BC%EC%A0%9C%20%EC%9E%90%EB%8F%99%ED%99%94%20%EC%84%A4%EA%B3%84%20%EB%B0%8F%20%EA%B5%AC%ED%98%84/email.png)
+![email.png](P2/email.png)
