@@ -41,15 +41,15 @@ Select: 최종 결과물
 
 1. 시트에 주문 정보 입력
 
-![image.png](P1/make_result1.png)
+![image.png](P1/make_result_1.png)
 
 1. 노션 데이터베이스에 주문 내용 및 변환된 포멧으로 데이터 삽입 확인
 
-![image.png](P1/make_result2.png)
+![image.png](P1/make_result_2.png)
 
 1. 메일 발송 확인
 
-![image.png](P1/make_result3.png)
+![image.png](P1/make_result_3.png)
 
 ## 2. Zapier
 
@@ -78,15 +78,15 @@ Select: 최종 결과물
 
 1. 시트에 주문 정보 입력
 
-![image.png](P1/zapier_result1.png)
+![image.png](P1/zapier_result_1.png)
 
 1. 노션 데이터베이스에 주문 내용 및 변환된 포멧으로 데이터 삽입 확인
 
-![image.png](P1/zapier_result2.png)
+![image.png](P1/zapier_result_2.png)
 
 1. 메일 발송 확인
 
-![image.png](P1/zapier_result3.png)
+![image.png](P1/zapier_result_3.png)
 
 ## 모델 비교
 
